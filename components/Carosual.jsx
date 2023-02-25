@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import HeroLogo from "../assets/HeroLogo1.svg";
-
+import Image from "next/image";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -34,7 +34,8 @@ export default function Carosual() {
               <div className="relative w-full h-full">
                 <div className="absolute top-0 left-0 w-full h-full ">
                   <div className="relative w-full h-full ">
-                    <img
+                    <Image
+                    alt=""
                       className="relative mx-auto w-full h-full object-cover object-center"
                       src="https://a0.muscache.com/im/pictures/miso/Hosting-753105413354639158/original/9b92640b-7212-401e-8c42-3616ea724a00.jpeg"
                     />
@@ -52,7 +53,8 @@ export default function Carosual() {
             <SwiperSlide className=" relative  w-full h-full block">
               <div className="relative w-full h-full">
                 <div className="absolute top-0 left-0 w-full h-full ">
-                  <img
+                  <Image
+                  alt=""
                     className="relative mx-auto w-full h-full object-cover object-center"
                     src="https://a0.muscache.com/im/pictures/miso/Hosting-740903561103574134/original/85a69834-4978-4d82-804e-c2e5c56dfa58.jpeg"
                   />
@@ -69,7 +71,8 @@ export default function Carosual() {
             <SwiperSlide className=" relative  w-full h-full block">
               <div className="relative w-full h-full">
                 <div className="absolute top-0 left-0 w-full h-full ">
-                  <img
+                  <Image
+                  alt=""
                     className="relative mx-auto w-full h-full object-cover object-center"
                     src="https://a0.muscache.com/im/pictures/miso/Hosting-753105413354639158/original/3d155470-07f5-47cd-b9bf-ea2c5b2a6f91.jpeg"
                   />
@@ -91,7 +94,7 @@ export default function Carosual() {
         <div className="relative w-full h-full">
           <div className=" relative lg-container flex  justify-center  w-full h-full mt-32 ">
             <div className="relative">
-              <img
+              <Image
                 src={HeroLogo}
                 className="fill-white  text-white w-auto h-28 "
                 alt="logo"

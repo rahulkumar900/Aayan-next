@@ -5,6 +5,7 @@ import VideoLink_low from "../assets/l&f_low.mp4";
 import VideoLink_mid from "../assets/l&f_mid.mp4";
 import thumbnail from "../assets/thumbnail.webp";
 import animatedLogo from "../assets/Rahul.svg";
+import Image from "next/image"
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -34,14 +35,14 @@ const VideoSliderHero = () => {
     
       >
         <source src={VideoLink} type="video/mp4" />
-        <img src={thumbnail} alt="video fallback" />
+        <Image src={thumbnail} alt="video fallback" />
       </video>
       <div className="absolute top-0 left-0 w-full h-full ">
         <div className=" relative flex flex-col w-full gap-10 h-full justify-between py-8 items-center overflow-hidden">
           <div className="w-full h-auto ">
             <div className=" relative lg-container flex  justify-center  ">
               <div className="relative ">
-                <img
+                <Image
                   src={animatedLogo}
                   className="fill-white  text-white w-auto h-16 sm:h-20"
                   alt="logo"
@@ -110,7 +111,7 @@ const VideoSliderHero = () => {
   //           <div className="w-full h-auto ">
   //             <div className=" relative lg-container flex  justify-center  ">
   //               <div className="relative ">
-  //                 <img
+  //                 <Image
   //                   src={animatedLogo}
   //                   className="fill-white  text-white w-auto h-16 sm:h-20"
   //                   alt="logo"

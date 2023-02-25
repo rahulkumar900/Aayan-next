@@ -16,7 +16,7 @@ function Pop() {
           <a
             href="https://wa.me/+6281353669377"
             target="_blank"
-            className="px-5 py-3 hover:bg-brown hover:text-white "
+            className="px-5 py-3 hover:bg-brown hover:text-white " rel="noreferrer"
           >
             <div className=" flex items-center gap-3 ">
               <FaWhatsapp />
@@ -26,7 +26,7 @@ function Pop() {
           <a
             className="px-5 py-3 hover:bg-brown hover:text-white"
             href="mailto:support@theaayan.com"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <div className=" flex items-center gap-3 ">
               <CiMail />
@@ -36,7 +36,7 @@ function Pop() {
           <a
             href="http://www.booking.com/hotel/id/kokomo-villas-by-bukit-vista.html"
             target="_blank"
-            className="px-5 py-3 hover:bg-brown hover:text-white"
+            className="px-5 py-3 hover:bg-brown hover:text-white" rel="noreferrer"
           >
             <div className="flex  items-center gap-3  ">
               <TbBrandBooking />
@@ -46,7 +46,7 @@ function Pop() {
           <a
             href="https://www.airbnb.co.in/rooms/740903561103574134?locale=en&_set_bev_on_new_domain=1675789513_ZjQzYjI1OTE3N2E2&source_impression_id=p3_1676666182_vp3SJPUAepO8V5t2"
             target="_blank"
-            className="px-5 py-3 hover:bg-brown hover:text-white"
+            className="px-5 py-3 hover:bg-brown hover:text-white" rel="noreferrer"
           >
             <div className=" flex items-center gap-3 ">
               <FaAirbnb />
