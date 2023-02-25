@@ -23,7 +23,7 @@ import { Autoplay, Navigation } from "swiper";
 
 export default function SwiperElement({ selected }) {
   return (
-    <div className=" max-w-4xl mx-auto  relative block opacity-100 w-full h-auto  overflow-hidden  ">
+    <div className=" max-w-4xl mx-auto  relative block   w-full h-auto  overflow-hidden  ">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -37,13 +37,13 @@ export default function SwiperElement({ selected }) {
         //   clickable: true,
         // }}
         modules={[Pagination, Autoplay, Pagination, Navigation]}
-        className="mySwiper overflow-hidden"
+        className="mySwiper overflow-hidden "
       >
         {selected === "satu" && (
           <div className="satu">
             <SwiperSlide className="relative">
               <Image
-                
+                priority
                 src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/403329448.jpg?k=514970f46e2f9dbbf69b478ea79823f4baa78910e40e9cf79c1deef90f6ec388&o=&hp=1"
                 width={1000}
                 height={500}
@@ -53,7 +53,6 @@ export default function SwiperElement({ selected }) {
 
             <SwiperSlide className="relative">
               <Image
-              
                 width={1000}
                 height={500}
                 src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/403329459.jpg?k=e2604d21fa83750193328f38ffb389a4b7a8b2a3a6a45f590f7162f66253ac14&o=&hp=1"
@@ -62,7 +61,6 @@ export default function SwiperElement({ selected }) {
             </SwiperSlide>
             <SwiperSlide className="relative">
               <Image
-              
                 width={1000}
                 height={500}
                 src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/403329469.jpg?k=6ecd22b652fd4ff4efa754466dc0a88afffd825bd1391034ab6dda3183f20b17&o=&hp=1"
@@ -72,7 +70,6 @@ export default function SwiperElement({ selected }) {
 
             <SwiperSlide className="relative">
               <Image
-              
                 width={1000}
                 height={500}
                 src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/403329417.jpg?k=e330bde6bcbaa59292bf46ba11b89a7acb10e4a408107260c0e71dc68c9b91f1&o=&hp=1"
@@ -89,7 +86,6 @@ export default function SwiperElement({ selected }) {
           <div className="dua">
             <SwiperSlide className="relative">
               <Image
-                
                 width={1000}
                 height={500}
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-737275879688000513/original/14c2d66c-3a6c-4326-9f92-858092463790.jpeg?im_w=1200" //Done
@@ -98,7 +94,6 @@ export default function SwiperElement({ selected }) {
             </SwiperSlide>
             <SwiperSlide className="relative">
               <Image
-              
                 width={1000}
                 height={500}
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-737275879688000513/original/ce903473-d5b6-4e7d-a1a3-8d1802b34138.jpeg?im_w=1200" //Done
@@ -107,7 +102,6 @@ export default function SwiperElement({ selected }) {
             </SwiperSlide>
             <SwiperSlide className="relative">
               <Image
-               
                 width={1000}
                 height={500}
                 src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/403329467.jpg?k=b633dc970fc89d820cb5797575a2827f526c111c091f04930e6990e81f12629d&o=&hp=1" //Done
@@ -117,7 +111,6 @@ export default function SwiperElement({ selected }) {
 
             <SwiperSlide className="relative">
               <Image
-               
                 width={1000}
                 height={500}
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-737275879688000513/original/89a0e089-7708-4bf2-8991-2c3d403ca921.jpeg?im_w=1200" // Done
@@ -127,7 +120,6 @@ export default function SwiperElement({ selected }) {
 
             <SwiperSlide className="relative">
               <Image
-             
                 width={1000}
                 height={500}
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-737275879688000513/original/088b0a67-7f13-4341-b034-950473c04926.jpeg?im_w=1200"
@@ -136,7 +128,6 @@ export default function SwiperElement({ selected }) {
             </SwiperSlide>
             <SwiperSlide className="relative">
               <Image
-                
                 width={1000}
                 height={500}
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-737275879688000513/original/6fc45903-dc42-46ed-ae8c-e767b64ead15.jpeg?im_w=1200"
@@ -151,7 +142,6 @@ export default function SwiperElement({ selected }) {
             {/* ------------------------------- */}
             <SwiperSlide className="">
               <Image
-                
                 width={1000}
                 height={500}
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-750922057131496616/original/d6d16c34-f9ad-4ca7-b7a2-dc925198f1a2.jpeg?im_w=1200" //done
@@ -160,7 +150,6 @@ export default function SwiperElement({ selected }) {
             </SwiperSlide>
             <SwiperSlide className="">
               <Image
-               
                 width={1000}
                 height={500}
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-750922057131496616/original/4b8bcb84-6c48-4a81-aff5-e36204318c74.jpeg?im_w=1200" // Done
@@ -170,7 +159,6 @@ export default function SwiperElement({ selected }) {
 
             <SwiperSlide className="">
               <Image
-             
                 width={1000}
                 height={500}
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-750922057131496616/original/539837ce-bffd-4134-ae70-cea28945f211.jpeg?im_w=1200" //Done
@@ -179,7 +167,7 @@ export default function SwiperElement({ selected }) {
             </SwiperSlide>
             <SwiperSlide className="">
               <Image
-               
+                priority
                 width={1000}
                 height={500}
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-750922057131496616/original/befc8210-26c5-4035-909d-e2adb2086ad6.jpeg?im_w=1200" //Done
@@ -197,7 +185,7 @@ export default function SwiperElement({ selected }) {
           <div className="Emapat">
             <SwiperSlide className="">
               <Image
-           
+                priority
                 width={1000}
                 height={500}
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-750922057131496616/original/e3f36991-e57a-4100-9a4c-c583804b5da8.jpeg?im_w=1200" //Done
@@ -207,7 +195,7 @@ export default function SwiperElement({ selected }) {
             </SwiperSlide>
             <SwiperSlide className="">
               <Image
-             
+                priority
                 width={1000}
                 height={500}
                 src={"/empat1.webp"}
@@ -217,7 +205,7 @@ export default function SwiperElement({ selected }) {
             </SwiperSlide>
             <SwiperSlide className="">
               <Image
-             
+                priority
                 width={1000}
                 height={500}
                 src={"/empat2.webp"}
@@ -227,7 +215,7 @@ export default function SwiperElement({ selected }) {
             </SwiperSlide>
             <SwiperSlide className="">
               <Image
-               
+                priority
                 width={1000}
                 height={500}
                 src={"/empat3.webp"}
@@ -242,7 +230,7 @@ export default function SwiperElement({ selected }) {
           <div className="Lima">
             <SwiperSlide className="">
               <Image
-                
+                priority
                 width={1000}
                 height={500}
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-753105413354639158/original/da0e6d0d-6692-4dde-bad7-55e76e1e0382.jpeg?im_w=1200" //done
@@ -252,7 +240,7 @@ export default function SwiperElement({ selected }) {
 
             <SwiperSlide className="">
               <Image
-               
+                priority
                 width={1000}
                 height={500}
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-753105413354639158/original/f35358c8-2c30-4cc2-a570-27cf1c36765d.jpeg?im_w=1200" //done
@@ -261,7 +249,7 @@ export default function SwiperElement({ selected }) {
             </SwiperSlide>
             <SwiperSlide className="">
               <Image
-              
+                priority
                 width={1000}
                 height={500}
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-753105413354639158/original/176b03ba-fbd6-4255-b847-281f4cc8c479.jpeg?im_w=1200" //done
@@ -270,7 +258,7 @@ export default function SwiperElement({ selected }) {
             </SwiperSlide>
             <SwiperSlide className="">
               <Image
-               
+                priority
                 width={1000}
                 height={500}
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-750922057131496616/original/0bd2281a-21ce-4471-ac35-6ad09ee598f7.jpeg?im_w=1200" //done
@@ -284,7 +272,7 @@ export default function SwiperElement({ selected }) {
           <div className="nextup">
             <SwiperSlide className="">
               <Image
-                placeholder="blur"
+                priority
                 src={"/club-1.jpg"}
                 width={1000}
                 height={500}
@@ -294,7 +282,7 @@ export default function SwiperElement({ selected }) {
             </SwiperSlide>
             <SwiperSlide>
               <Image
-                placeholder="blur"
+                priority
                 src={"/club2.webp"}
                 width={1000}
                 height={500}
@@ -304,7 +292,7 @@ export default function SwiperElement({ selected }) {
             </SwiperSlide>
             <SwiperSlide>
               <Image
-                placeholder="blur"
+                priority
                 width={1000}
                 height={500}
                 src={"/club3.webp"}
