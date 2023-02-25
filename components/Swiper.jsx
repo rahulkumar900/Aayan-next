@@ -19,7 +19,7 @@ export default function SwiperElement() {
   return (
     <div className="max-w-7xl mx-auto  ">
       {sc && (
-        <div className="fixed top-0 left-0 w-screen h-screen z-30 bg-gray-900 opacity-50">
+        <div className="fixed top-0 left-0 w-screen h-screen z-50 bg-gray-900 opacity-50">
           <div className="flex flex-col items-center justify-center relative w-full h-full">
             <div className="absolute top-10 right-10">
               <BsXLg
