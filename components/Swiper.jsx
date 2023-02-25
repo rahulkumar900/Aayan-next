@@ -153,7 +153,8 @@ export default function SwiperElement() {
                   alt="tiga"
                   width={500}
                  height={100}
-                  src="https://a0.muscache.com/im/pictures/miso/Hosting-750922057131496616/original/d6d16c34-f9ad-4ca7-b7a2-dc925198f1a2.jpeg?im_w=1200 "
+
+                  src="https://a0.muscache.com/im/pictures/miso/Hosting-750922057131496616/original/d6d16c34-f9ad-4ca7-b7a2-dc925198f1a2.jpeg?im_w=1200"
                 />
 
                 <div className="   text-center">
