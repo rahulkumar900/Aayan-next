@@ -35,10 +35,8 @@ export default function SwiperElement() {
       <Swiper
         slidesPerView={1}
         breakpoints={{
-          640: { slidesPerView: 2, 
-            spaceBetween: 20,
-           },
-        
+          640: { slidesPerView: 2, spaceBetween: 20 },
+
           1024: {
             slidesPerView: 3,
             spaceBetween: 20,
@@ -57,17 +55,15 @@ export default function SwiperElement() {
           <div className="relative">
             <div className="relative max-w-md mx-auto md:max-w-2xl min-w-0 break-words bg-white w-full  shadow-lg">
               <div className=" flex relative flex-col gap-2 ">
-               
                 <Image
                   onClick={() => sSc("satu")}
                   alt="satu"
-                 width={500}
-                 height={100}
-                 
-                 className="object-cover"
+                  width={500}
+                  height={100}
+                  className="object-cover"
                   src="https://a0.muscache.com/im/pictures/miso/Hosting-740903561103574134/original/891d8f37-42b0-4715-8b63-66bd96572942.jpeg?im_w=1200"
                 />
-            
+
                 <div className="text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4">
@@ -152,8 +148,7 @@ export default function SwiperElement() {
                   onClick={() => sSc("tiga")}
                   alt="tiga"
                   width={500}
-                 height={100}
-
+                  height={100}
                   src="https://a0.muscache.com/im/pictures/miso/Hosting-750922057131496616/original/d6d16c34-f9ad-4ca7-b7a2-dc925198f1a2.jpeg?im_w=1200"
                 />
 
@@ -167,11 +162,11 @@ export default function SwiperElement() {
                       </span>
                       <p className="text-sm text-justify tracking-tight line-clamp-4  font-light leading-relaxed text-purple mb-4">
                         Our third villa represents the cheerfulness and
-                        open-hearted ways of Bali &apos; s people. The all-white decor
-                        will remind you of Santorini. The villa features a
-                        single bedroom, a living room kitchenette and a kid &apos; s
-                        room. It also features an open bathtub, a private pool
-                        and a terrace ...
+                        open-hearted ways of Bali &apos; s people. The all-white
+                        decor will remind you of Santorini. The villa features a
+                        single bedroom, a living room kitchenette and a kid
+                        &apos; s room. It also features an open bathtub, a
+                        private pool and a terrace ...
                       </p>
                     </div>
                     <Link
@@ -210,11 +205,11 @@ export default function SwiperElement() {
                         Empat in Balinese means four
                       </span>
                       <p className="text-sm text-justify tracking-tight line-clamp-4  font-light leading-relaxed text-purple mb-4">
-                        Our fourth villa &apos; s décor hints at a Moroccan influence.
-                        This villa too features a single bedroom with a living
-                        area a kitchenette and a kids room with a single bed. A
-                        manicured lawn, a pool and a private terrace complete
-                        the experience.
+                        Our fourth villa &apos; s décor hints at a Moroccan
+                        influence. This villa too features a single bedroom with
+                        a living area a kitchenette and a kids room with a
+                        single bed. A manicured lawn, a pool and a private
+                        terrace complete the experience.
                       </p>
                     </div>
                     <Link
@@ -276,7 +271,6 @@ export default function SwiperElement() {
             </div>
           </div>
         </SwiperSlide>
-       
       </Swiper>
     </div>
   );
