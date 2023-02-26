@@ -14,7 +14,6 @@ import Link from "next/link";
 export default function SwiperElement() {
   const [sc, sSc] = useState(null);
 
-  console.log(sc);
 
   return (
     <div className="max-w-7xl mx-auto  ">

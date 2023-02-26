@@ -101,7 +101,7 @@ export default function Experience() {
       <div className="flex gap-4 flex-wrap sm:flex-nowrap px-6" >
         <div className="flex-auto relative">
 
-        <Image src={"/experience.png"} fill={true} alt="img" className="max-w-full max-h-full" />
+        <Image src={"/experience.png"} blurDataURL="" width={3000} height={500} alt="img" className="max-w-full max-h-full" />
         </div>
         <div className="flex-auto px-4">
           <p className=" text-purple tracking-tight text-justify text-normal sm:text-lg sm:leading-loose ">

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
-
+import {useState,useEffect} from "react"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import VideoSliderHero from "components/VideoSliderHero";
@@ -11,10 +11,14 @@ import Slide from "components/Slide";
 import Reviews from "components/Reviews";
 import Experience from "components/Experience";
 import NextUp from "components/NextUp";
+import { FaWhatsapp } from "react-icons/fa";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+ 
+  
+
   return (
     <>
       <Head>
@@ -32,6 +36,13 @@ export default function Home() {
         <Reviews />
         <Experience />
         <NextUp />
+        <div className="fixed  z-30 flex sm:hidden justify-end p-8  bottom-0 w-full h-auto">
+           
+           <a  href="https://wa.me/+6281353669377" target="_target">
+  
+            <FaWhatsapp className=" fill-purple" size={40} />
+           </a>
+          </div>
       </main>
     </>
   );

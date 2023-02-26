@@ -5,7 +5,7 @@ export default function Weather () {
   const [long, setLong] = useState();
   const [data, setData] = useState({});
 
-  console.log(data);
+  
   useEffect(() => {
     const fetchData = async () => {
       await fetch(
@@ -14,7 +14,7 @@ export default function Weather () {
         .then((res) => res.json())
         .then((result) => {
           setData(result);
-          console.log(result);
+        
         });
     };
 
