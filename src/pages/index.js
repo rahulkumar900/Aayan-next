@@ -1,10 +1,14 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import {useState,useEffect} from "react"
-import { Swiper, SwiperSlide } from "swiper/react";
+import dynamic from "next/dynamic";
+
+
+
 import "swiper/css";
-import VideoSliderHero from "components/VideoSliderHero";
+
+const VideoSliderHero = dynamic(() => import("components/VideoSliderHero"), {
+  ssr: false,
+})
+
 import Welcome from "components/welcome";
 import Concept from "components/Concept";
 import Slide from "components/Slide";
@@ -12,9 +16,9 @@ import Reviews from "components/Reviews";
 import Experience from "components/Experience";
 import NextUp from "components/NextUp";
 import { FaWhatsapp } from "react-icons/fa";
-import StickyBar from "components/StickyBar";
 
-const inter = Inter({ subsets: ["latin"] });
+
+
 
 export default function Home() {
  
