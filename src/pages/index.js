@@ -12,6 +12,7 @@ import Reviews from "components/Reviews";
 import Experience from "components/Experience";
 import NextUp from "components/NextUp";
 import { FaWhatsapp } from "react-icons/fa";
+import StickyBar from "components/StickyBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,6 +43,8 @@ export default function Home() {
   
             <FaWhatsapp className=" fill-purple" size={40} />
            </a>
+
+         
           </div>
       </main>
     </>

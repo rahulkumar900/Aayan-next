@@ -73,8 +73,9 @@ console.log(`
     <>
       <Navbar />
       {children}
-      <StickyBar />
+  
       <Footer />
+      <StickyBar />
     </>
   );
 }
